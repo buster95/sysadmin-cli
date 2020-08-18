@@ -1,0 +1,27 @@
+{
+  "name": "sysadmin-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cli.js",
+  "bin": {
+    "sa": "cli.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "cli-progress": "^2.1.1",
+    "console.table": "^0.10.0",
+    "figlet": "^1.2.1",
+    "meow": "^5.0.0",
+    "nodejs-fs-utils": "^1.1.2",
+    "ora": "^3.4.0"
+  }
+}
