@@ -1,7 +1,24 @@
 {
   "name": "sysadmin-cli",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "A command line for server administration",
+  "scripts": {
+    "start": "node cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buster95/sysadmin-cli"
+  },
+  "maintainers": [
+    {
+      "name": "Walter Corrales",
+      "email": "corraleswalter@live.com",
+      "url": "https://github.com/buster95"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/buster95/sysadmin-cli/issues"
+  },
   "main": "cli.js",
   "bin": {
     "sa": "cli.js"
@@ -9,12 +26,14 @@
   "directories": {
     "lib": "lib"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "cli",
+    "sysadmin",
+    "server",
+    "administration"
+  ],
+  "author": "Walter Corrales",
+  "license": "MIT",
   "dependencies": {
     "chalk": "^2.4.2",
     "cli-progress": "^2.1.1",
